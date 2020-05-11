@@ -1,9 +1,4 @@
-/* <a class="navbar-item" href="https://github.com/Lelionbear">
-  <span class="icon">
-    <i class="fab fa-github"></i>
-  </span>
-  <span>GitHub</span>
-</a> */
+
 
 
 
@@ -30,7 +25,7 @@ body, html {
   background-image: url("banner.jpg");
 }
 
-.experience-banner {
+.other-banner {
   /* background-image: url("banner.jpg"); */
   height: 30%;
   background-color: grey;
