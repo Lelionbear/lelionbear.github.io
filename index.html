@@ -6,243 +6,77 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Arturo Galvan Alarcon's Website</title>
+  <title>Arturo Codes - Home</title>
 
   <!-- bulma 0.7.2 and font awesome v5.7.1 -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css" integrity="sha256-2pUeJf+y0ltRPSbKOeJh09ipQFYxUdct5nTY6GAXswA=" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <!-- body -->
 <body>
-
   <!-- header -->
-  <section class="hero is-primary is-bold">
-    <!-- todo: change assignment and name -->
-    <div class="hero-body">
+  <div class="hero is-light hero-head">
+    <nav class="navbar">
       <div class="container">
-        <h1 class="title">
-          My Website
-        </h1>
-        <h2 class="subtitle">
-          Arturo Galvan Alarcon
-        </h2>
-      </div>
-    </div>
+        <div class="navbar-brand">
+          <a href="/">
+            <img src="logo.jpg" width="66" height="66" alt="Logo">
+          </a>
+        </div>
 
-    <!-- todo: change navigation as needed -->
-    <div class="hero-foot">
-      <div class="container">
-        <nav class="navbar" role="navigation" aria-label="main navigation">
-
-          <div class="navbar-brand">
-            <a class="navbar-item" href="#top">
-              <span class="icon">
-                <i class="fas fa-home"></i>
-              </span>
-              <span>Home</span>
-            </a>
-          </div>
-
-          <div id="main-navbar" class="navbar-menu">
-            <a class="navbar-item" href="#vis1">
-              <span class="icon">
-                <i class="fas fa-chart-area"></i>
-              </span>
-              <span>Experience</span>
-            </a>
-          </div>
-
+        <div class="navbar-menu is-inverted">
           <div class="navbar-end">
-            <a class="navbar-item" href="#grade">
-              <span class="icon">
-                <i class="fas fa-tasks"></i>
-              </span>
-              <span>Projects</span>
+            <a class="navbar-item is-active" href="index.html">
+              Home
             </a>
-
-            <a class="navbar-item" href="#about">
-              <span class="icon">
-                <i class="fas fa-info-circle"></i>
-              </span>
-              <span>About</span>
+            <a class="navbar-item" href="experience.html">
+              Experience
+            </a>
+            <a class="navbar-item" href="about.html">
+              About
             </a>
           </div>
-
-        </nav>
+        </div>
       </div>
+    </nav>
+  </div>
+
+  <div class="banner-settings home-banner">
+    <div class="banner-caption">
+      <span class="banner-border">
+        <b>ARTURO GALVAN-ALARCON</b>
+      </span>
     </div>
-  </section>
+  </div>
 
-  <!-- todo: add sections as necessary -->
   <section class="section">
-    <div class="container content">
-      <!-- todo: modify as necessary (or move visualizations to separate pages) -->
-      <h2>Resume</h2>
-      
-      <embed src="https://docs.google.com/viewer?url=https://github.com/Lelionbear/lelionbear.github.io/raw/master/AGA%20Resume.pdf" width="500" height="375">
-      
-      <h2>Work Experience</h2>
-      <h3>USF CS Department TA For Intro to CS II</h3>
-  
-      <p>
-          ▪ Input grade coursework from a class of 25 students by analyzing and running submitted Java code 
-      </p>
-      
-      <p>
-          ▪ Tutor students needing additional help with projects or labs during office hours
-      </p>
-
-      <h3> USF CS Department TA For Mobile Apps and Web Development </h3>
-
-      <p>
-          ▪ Assisted 30 students throughout lectures with labs using MIT’s App Inventor creating functioning Mobile Apps 
-      <p>
-          ▪ Provided tutoring hours for students needing additional help with projects or labs      
-      </p>
-      
-      <h3>Extra Curricular</h3>
-
-      <p>
-          ▪ TAPIA CONFERENCE
-      </p>
-      
-      <p>
-          ▪ Twitter Earlybird Program
-      </p>
-      
-      <p>
-          ▪ Hackathon
-      </p>
-    </div>
-  </section>
-
-  <!-- separator between sections -->
-  <hr class="container">
-
-  <!-- grade section -->
-  <section class="section">
-    <div class="container content">
-      <h2 id="grade">
-        Project Title
-      </h2>
-
-      <!-- todo: modify to indicate your expected grade -->
-      <table class="table is-hoverable">
-        <thead>
-          <tr>
-            <th>Project TItle</th>
-            <th>Class</th>
-            <th>Justification</th>
-          </tr>
-        </thead>
-
-        <tbody>
-          <!-- d level functionality -->
-          <tr>
-            <td class="has-text-centered">
-              Kruksals Algorithm
-            </td>
-
-            <td class="has-text-centered">
-              Data Structures
-            </td>
-
-            <td>
-            <p>
-            ▪ Developed a program that can find the Minimum Spanning Tree of a given graph using Kruskal’s algorithm              
-            </p>
-            <p>
-            ▪ Combined and implemented a Disjoint Set to establish the sets for the least weighted pathways to all vertice           
-             </p>
-            </td>
-          </tr>
-
-          <!-- c level functionality -->
-          <tr>
-            <td class="has-text-centered">
-              Hastables
-            </td>
-
-            <td class="has-text-centered">
-              Data Structures
-            </td>
-
-            <td>
-             <p>
-            ▪ Designed a Hashtable to store a list of all words from the word dictionary on a Linux operating system              </p>
-            <p>
-            ▪ Created the program to store strings in the array while implementing separate chaining as the storing methoojects or labs      
-           </p>
-            </td>
-          </tr>
-
-          <!-- b level functionality -->
-          <tr>
-            <td class="has-text-centered">
-              Hybrid Sorting Algorithm
-            </td>
-
-            <td class="has-text-centered">
-              Data Structures
-            </td>
-
-            <td>
-            <p>
-            ▪ Constructed an algorithm in java to sort an array of 50K numbers with an average runtime of 30ms               </p>
-            <p>
-            ▪ Strategically used recursion and bubble sort to find sets of ordered numbers to later perform a merge sort resulting in a sorted array                   </p>
-            </td>
-          </tr>
-        <tbody>
-      </table>
-
-      <p>
-
-      </p>
-    </div>
-  </section>
-
-  <!-- about section -->
-  <!-- todo: can fill in, or link to an about page you use for all assignments -->
-  <section class="section">
-    <div class="container content">
-      <h2 id="about">
-        About Me
-      </h2>
-
-      <div class="media">
-        <div class="media-left">
-          <p class="image is-128x128">
-            <!-- todo: replace with your profile image -->
-            <img src="https://avatars2.githubusercontent.com/u/19920688?s=460&v=4">
+    <div class="tile is-ancestor">
+      <div class="tile is-parent is-8">
+        <div class="tile is-child notification" style="background-color: lightblue; font-size: 18px;">
+          <p class="subtitle">Welcome to my portfolio</p>
+          <p>
+            My goal is to highlight my experiences gained by showcasing
+            projects I have done as an undergraduate student. As a coder, I am
+            constantly learning new programming languages, frameworks, and staying
+            relevant with the trends in the tech industry. My skillset is strong
+            and growing, filled with potential, specifically in software development.
           </p>
-        </div>
-
-        <div class="media-content">
-            <p>
-              <!-- todo: replace with your information -->
-              <strong>Arturo Galvan-Alarcon</strong>
-              <br/>
-              CS student and enthusiast, my interests are Bioinformatics, Robotics, Artificial Intelligence, and cyber security.
-              <br/>
-              <!-- find brand icons at: https://fontawesome.com/icons?d=gallery&s=brands&m=free -->
-              <a href="https://github.com/Lelionbear">
-                <span class="fab fa-github"></span>
-                <span>Github</span>
-              </a>
-              &bullet;
-              <a href="https://www.linkedin.com/in/r2o-lelionbear/">
-                <span class="fab fa-linkedin"></span>
-                <span>LinkedIn</span>
-              </a>
-            </p>
-
+          <br>
+          <p>Explore my website and learn about my interests along with who I am.</p>
         </div>
       </div>
 
+      <div class="tile is-parent is-4">
+        <img src="welcome.jpg"></img>
+      </div>
+    </div>
+    <div align="center">
+      <a class="button is-link is-rounded is-large" href="experience.html">Experience</a>
     </div>
   </section>
+
 
   <!-- footer -->
   <footer class="footer">
@@ -252,8 +86,8 @@
           <span class="fas fa-arrow-up"></span>
           <span>Back to Top</span>
         </a>
-        <br/>
-        <a href="/">Copyright 2019 Arturo</a>
+        <br>
+        <a href="/">Copyright 2020 Arturo Galvan-Alarcon</a>
       </small>
     </div>
   </footer>

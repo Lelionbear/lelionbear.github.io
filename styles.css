@@ -1,0 +1,53 @@
+/* <a class="navbar-item" href="https://github.com/Lelionbear">
+  <span class="icon">
+    <i class="fab fa-github"></i>
+  </span>
+  <span>GitHub</span>
+</a> */
+
+
+
+body, html {
+    height: 100%;
+}
+
+.banner-settings {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("banner.jpg"); */
+  /* background-image: url("banner.jpg"); */
+
+  /* Set a specific height */
+  height: 100%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.home-banner {
+  background-image: url("banner.jpg");
+}
+
+.experience-banner {
+  /* background-image: url("banner.jpg"); */
+  height: 30%;
+  background-color: grey;
+}
+
+.banner-caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+.banner-border {
+    background-color: white;
+    color: black;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
