@@ -1,99 +1,292 @@
 <!DOCTYPE html>
-<html>
+<html class="no-js" lang="en">
 
-<!-- head -->
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Arturo Codes - Home</title>
+    <title>Arturo's Portfolio</title>
 
-  <!-- bulma 0.7.2 and font awesome v5.7.1 -->
-  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css" integrity="sha256-2pUeJf+y0ltRPSbKOeJh09ipQFYxUdct5nTY6GAXswA=" crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
-  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-  <link rel="stylesheet" href="styles.css">
+  	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  	<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/styles.css" rel="stylesheet">
 </head>
 
-<!-- body -->
 <body>
-  <!-- header -->
-  <div class="hero is-light hero-head">
-    <nav class="navbar">
-      <div class="container">
-        <div class="navbar-brand">
-          <a href="/">
-            <img src="logo.jpg" width="66" height="66" alt="Logo">
-          </a>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+
+
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
         </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
 
-        <div class="navbar-menu is-inverted">
-          <div class="navbar-end">
-            <a class="navbar-item is-active" href="index.html">
-              Home
-            </a>
-            <a class="navbar-item" href="experience.html">
-              Experience
-            </a>
-            <a class="navbar-item" href="about.html">
-              About
-            </a>
-          </div>
+
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Arturo Galvan-Alarcon</h1>
+
+            <br>
+
+            <div class="links">
+              <a class="lead-link" href="https://www.linkedin.com/in/agalvanalarcon/">
+                <i class="fa fa-linkedin"></i>
+              </a>
+              <a class="lead-link" href="https://github.com/Lelionbear">
+                <i class="fa fa-github"></i>
+              </a>
+              <a class="lead-link" alt="Arturo Resume" href="https://drive.google.com/file/d/1anBpaISrQAtpOmVW9L2-lm9krzjhauaz/view?usp=sharing">
+                <i class="fa fa-file"></i>
+              </a>
+            </div>
         </div>
-      </div>
-    </nav>
-  </div>
+        <!-- End #lead-content -->
 
-  <div class="banner-settings home-banner">
-    <div class="banner-caption">
-      <span class="banner-border">
-        <b>ARTURO GALVAN-ALARCON</b>
-      </span>
-    </div>
-  </div>
+        <div id="lead-overlay"></div>
 
-  <section class="section">
-    <div class="tile is-ancestor">
-      <div class="tile is-parent is-8">
-        <div class="tile is-child notification" style="background-color: lightblue; font-size: 18px;">
-          <p class="subtitle">Welcome to my portfolio</p>
-          <p>
-            My goal is to highlight my experiences gained by showcasing
-            projects I have done as an undergraduate student. As a coder, I am
-            constantly learning new programming languages, frameworks, and staying
-            relevant with the trends in the tech industry. My skillset is strong
-            and growing, filled with potential, specifically in software development.
-          </p>
-          <br>
-          <p>Explore my website and learn about my interests along with who I am.</p>
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
         </div>
-      </div>
-
-      <div class="tile is-parent is-4">
-        <img src="welcome.jpg"></img>
-      </div>
+        <!-- End #lead-down -->
     </div>
-    <div align="center">
-      <a class="button is-link is-rounded is-large" href="experience.html">Experience</a>
+    <!-- End #lead -->
+
+
+    <div id="about">
+        <!-- <h2 class="heading" >About Me</h2> -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                </div>
+                <div class="col-md-3">
+                    <h2 class="heading">About Me</h2>
+                </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                <img class="about-image" src="img/arturo.jpg" alt="Arturo image">
+              </div>
+              <div class="col-md-8">
+                <p>
+                  <br>
+                  <br>
+                  From Las Vegas Nevada, I am an undergraduate student at the
+                  <a href="https://www.usfca.edu/">University of San Francisco</a>
+                  Majoring in Computer Science and a minor in Entrepreneurship and Innovation.
+                  I have an interest in software development, mobile app development, robotics, and cybersecurity.
+                  In my freetime I enjoy playing video games, exercising, photography, and poker.
+                </p>
+              </div>
+            </div>
+        </div>
     </div>
-  </section>
+    <!-- End #about -->
 
 
-  <!-- footer -->
-  <footer class="footer">
-    <div class="content has-text-centered">
-      <small>
-        <a href="#top">
-          <span class="fas fa-arrow-up"></span>
-          <span>Back to Top</span>
-        </a>
-        <br>
-        <a href="/">Copyright 2020 Arturo Galvan-Alarcon</a>
-      </small>
+    <div id="education" class="background-alt">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <a href="https://www.usfca.edu/"><h3>University of San Francisco (USF)</h3></a>
+            <span class="education-date"><strong>August 2017 - Present</strong></span>
+            <h4>
+              Bachelor of Science in Computer Science
+              <br>
+              Minor in Entrepreneurship and Innovation
+            </h4>
+            <ul text-align="center">
+                <li>
+                    Expected Graduation: <span><strong>May 2021</strong></span>
+                </li>
+                <li>
+                    Major GPA (on a 4.0 scale) : <span><strong>3.74</strong></span>
+                </li>
+                <li>
+                    Cumulative GPA (on a 4.0 scale) : <span><strong>3.58</strong></span>
+                </li>
+            </ul>
+        </div>
+        <!-- End .education-block -->
     </div>
-  </footer>
+    <!-- End #education -->
 
-<!-- end body and html -->
+
+    <div id="projects">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="img/suitemate_logo.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Suitemate</h3>
+                        <p>
+                            A (mock) startup company developed alongside two classmates.
+                            Our goals are to increase transparency and accessibility for students
+                            seeking housing both on and off campus.
+                        </p>
+                        <a href="https://www.suitemate.co/">View Website</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="img/d3_logo.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Data Visualization</h3>
+                        <p>
+                            Collective visualizations coded using d3.js (version 5) as part of class assignments/projects.
+                        </p>
+                        <!-- <a href="under_development.html">View Visualizations</a> -->
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="img/crucible.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>The Crucible</h3>
+                        <p>
+                            A sponsor based senior capstone project.
+                            MVP goal was to design and code a virtual environment for AI/ML bots to play in a world of tag.
+                        </p>
+                        <!-- <a href="under_development.html">View Project</a> -->
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="img/searchengine_logo.svg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Search Engine</h3>
+                        <p>
+                            Software Development project built to learn industry level programming by designing and coding a multithreaded search engine.
+                        </p>
+                        <!-- <a href="under_development.html">View Project</a> -->
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="August 2019 – Present">
+                <h3>University of San Francisco (CS Department)</h3>
+                <h4>Computer Science Tutor</h4>
+                <p>
+                    Assisting in labs/projects written in Java, C, and Python fostering student's ability to fully understand CS concepts
+                </p>
+            </div>
+
+            <div data-date="August 2018 – May 2019">
+                <h3>University of San Francisco (CS Department)</h3>
+                <h4>Teacher Assistant for CS: Intro to Java</h4>
+                <ul>
+                  <li>Graded Java assignments for a class of 25 students along with providing feedback on submitted code.</li>
+                  <li>Tutored students needing additional help understanding OOP for their labs/projects during office hours</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- End #experience -->
+
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+          <li>Java</li>
+          <li>C</li>
+          <li>Python</li>
+          <li>Go</li>
+          <li>JavaScript</li>
+          <li>TypeScript</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Node.js</li>
+          <li>React</li>
+          <li>WordPress</li>
+          <li>Eclipse</li>
+          <li>IntelliJ</li>
+          <li>PyCharm</li>
+          <li>Linux Environment</li>
+          <li>Terminal</li>
+          <li>GitHub</li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5">
+                </div>
+                <div class="col-sm-2 copyright top">
+                    <p>
+                        Copyright &copy; 2020 Arturo Galvan-Alarcon
+                    </p>
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
 </body>
+
 </html>
